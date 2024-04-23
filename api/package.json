@@ -1,0 +1,27 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "author": "Petar Cevriz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.19.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.1.1",
+    "eslint": "9.1.1",
+    "eslint-config-prettier": "9.1.0",
+    "globals": "15.0.0",
+    "nodemon": "^3.1.0",
+    "prettier": "3.2.5"
+  }
+}
