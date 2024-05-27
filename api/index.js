@@ -1,10 +1,10 @@
-const express = require("express");
+import express from "express";
 
-const userRoutes = require("./routes/user");
+import routes from "./routes/index.js";
 
 const app = express();
 
-app.use(userRoutes);
+app.use(routes.userRoutes);
 
 // Setup server to accept headers
 // Install JWT and setup middleware

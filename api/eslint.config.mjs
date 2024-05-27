@@ -4,7 +4,7 @@ import globals from "globals";
 export default [
   {
     files: ["**/*.js"],
-    languageOptions: { sourceType: "commonjs" },
+    languageOptions: { sourceType: "module" },
   },
   { languageOptions: { globals: globals.browser } },
   pluginJs.configs.recommended,
